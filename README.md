@@ -1,4 +1,5 @@
 # Brawl-Stars-Random-Map-Maker
+By the creator of Brawler Maker, I present you the BS Random Map Maker
 This a tool to generate brawl stars map with random tiles
 
 Customizable via settings file :
