@@ -1,0 +1,10 @@
+[Settings]
+mapwidth = 22
+mapheight = 33
+numberofmapstogenerate = 1
+lastlineid = 1
+percentageofemptyspace = 50
+#info on settings :
+#for last line id : go at the end of maps.csv and see which is the_last_number
+#mapwidth and mapheight: it's the number of tiles, you can have premade numbers while putting their names instead of number : 3v3 or showdown
+#max percentage of empty space is 50% (any number above will count as 50%)
