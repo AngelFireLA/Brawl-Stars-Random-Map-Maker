@@ -1,10 +1,18 @@
 [Settings]
-mapwidth = 22
-mapheight = 33
-numberofmapstogenerate = 1
-lastlineid = 1
-percentageofemptyspace = 50
-#info on settings :
+#mapwidth and mapheight: it's the number of tiles, you can either have custom values (like 20 and 30) or you can use one of the 2 presets : showdown or brawlball (write one of these instead of a number)
+map_width = 22
+map_height = 10
+#Warning : if later you set "modify csv directly" to true, then put this on 3 maximum or the game will crash
+number_of_maps_to_generate = 3
 #for last line id : go at the end of maps.csv and see which is the_last_number
-#mapwidth and mapheight: it's the number of tiles, you can have premade numbers while putting their names instead of number : 3v3 or showdown
+last_line_id = 1
 #max percentage of empty space is 50% (any number above will count as 50%)
+percentage_of_empty_space = 50
+#say if the maps you make are 3v3 maps (6 spawn points) or showdown (10 spawn points)
+are_spawn_points_3v3_or_showdown : 3v3
+#modify csv directly is if you want the tool to add the maps directly in maps.csv and locations.csv (put true or false) (if you put true, put maps.csv and locations.csv in the same folder as the generator.py)
+modify_csv_directly = true
+#(gamemode of each map) (list : lonestar, showdown, heist, bounty, brawllball, gemgrab)
+gamemode_of_map_1 = brawlball
+gamemode_of_map_2 = brawlball
+gamemode_of_map_3 = brawlball
